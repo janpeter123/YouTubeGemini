@@ -1,0 +1,25 @@
+.chatdiv{
+    width: 100%;
+    height: 100%;
+    margin-left: 2rem;
+}
+
+
+.chatwindow{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 22rem;
+    height: 26.5rem;
+    max-height: 26.5rem;
+    overflow-y: scroll;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.inputbar{
+    display: flex;
+    max-width: 22rem;
+}
